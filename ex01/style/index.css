@@ -1,0 +1,39 @@
+h1 {
+  color: black;
+  margin-left: 40%;
+}
+h5 {
+  color: rgb(63, 63, 63);
+}
+.row {
+  margin-left: 10%;
+  text-align: justify;
+  text-justify: inter-word;
+  max-height: 200px;
+}
+.row1 {
+  margin-left: 10%;
+  text-align: justify;
+  text-justify: inter-word;
+  max-height: 200px;
+}
+.row2 {
+  margin-left: 10%;
+  text-align: justify;
+  text-justify: inter-word;
+  max-height: 200px;
+}
+.column {
+  float: left;
+  width: 23.33%;
+  padding: 35px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.p {
+  width: 23.33 !important;
+}
